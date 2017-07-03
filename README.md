@@ -1,5 +1,12 @@
 This static java library of standard functions used with trees and graph algorithms using the new Java 8 functional API
 
+
+
+Lambda expressions read so much better. Modern java libraries should embrace it.
+```java
+(param) -> statement;
+```
+
 ## Usage:
 ```java
 
