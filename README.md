@@ -19,6 +19,7 @@ public class Guide {
     n.right = new BTree.Node<Integer>(9);
     
     //to print the trees in certain orders:
+    // the visit function is passed in as the second argument
     BTree.inOrderTraversal(n, (node) -> System.out.println(node.value));
     BTree.preOrderTraversal(n, (node) -> System.out.println(node.value));
     BTree.postOrderTraversal(n, (node) -> System.out.println(node.value));
